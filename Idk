@@ -1,2 +1,2 @@
-echo 'alias ai="cd ~/llama.cpp && ./build/bin/llama-cli -m ~/models/tinyllama.gguf -c 64 -t 2 -n 80 --temp 0.7 --repeat-penalty 1.1 -p \"You are a coding assistant. Reply short and clear (max 5 lines).\""' >> ~/.bashrc
+echo 'alias ai="cd ~/llama.cpp && ./build/bin/llama-cli -m ~/models/tinyllama.gguf -c 64 -t 2 -n 130 -p \"You are a coding assistant. Reply short and give complete working code.\""' >> ~/.bashrc
 source ~/.bashrc
