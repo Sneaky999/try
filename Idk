@@ -1,1 +1,2 @@
-wget https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat.q4_k_m.gguf
+echo 'alias ai="cd ~/llama.cpp && ./build/bin/llama-cli -m ~/models/tinyllama.gguf -c 64 -t 2 -n 80 -p \"Short coding assistant. Reply briefly.\""' >> ~/.bashrc
+source ~/.bashrc
